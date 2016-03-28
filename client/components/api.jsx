@@ -106,7 +106,7 @@ export class ApiTest extends TrackerReact(React.Component){
   }
   handleTemboo(){
     var data = {
-      zip:"12834"
+      zip:"12020"
     }
    Meteor.call("checkTemboo", data, function(error, result){
      if(error){
